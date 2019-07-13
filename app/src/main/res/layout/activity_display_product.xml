@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DisplayProduct">
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/roundrec"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Brand:-"
+        android:layout_margin="16dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#242038"
+        />
+
+        <TextView
+            android:id="@+id/dbrand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:textColor="#531CB3"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            tools:text="Apple" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/roundrec"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Product:-"
+            android:layout_margin="16dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#242038"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dname"
+            tools:text="Apple"
+            android:layout_margin="16dp"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:textColor="#531CB3"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/roundrec"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Purchased On:-"
+            android:gravity="left|center"
+            android:layout_marginLeft="16dp"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:textColor="#242038"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dpdate"
+            tools:text="11/6/16"
+            android:gravity="left|center"
+            android:layout_marginRight="64dp"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:textColor="#531CB3"
+            />
+
+
+        <TextView
+            android:id="@+id/dedate"
+            android:layout_width="wrap_content"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:textColor="#531CB3"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            tools:text="11/6/16" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-:Expired On"
+            android:gravity="right"
+            android:layout_gravity="right"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:textColor="#242038"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/roundrec"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Invoice/Warrenty Card"
+            android:layout_margin="16dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#242038"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/roundrec"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer Care No."
+            android:layout_margin="16dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#242038"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dno"
+            tools:text="Apple"
+            android:layout_margin="16dp"
+            android:textSize="22sp"
+            android:textStyle="italic"
+            android:textColor="#531CB3"
+            />
+
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/dbill"
+
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+
+</LinearLayout>

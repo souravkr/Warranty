@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FCD581</color>
+    <color name="colorPrimaryDark">#EECF6D</color>
+    <color name="colorAccent">#FF5A5F</color>
+
+    <color name="m1">#DD3036</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude between 3 and 4 -->
+    <color name="m2">#EAE131</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude between 4 and 5 -->
+    <color name="m3">#4BED66</color>
+
+    <color name="selected">#824986</color>
+    <color name="unselected">#E4DFEC</color>
+
+</resources>
